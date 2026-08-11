@@ -6,7 +6,6 @@ services:
     restart: unless-stopped
     volumes:
       - home-assistant-config:/config
-      - /etc/localtime:/etc/localtime:ro
 
 volumes:
   home-assistant-config:
