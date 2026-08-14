@@ -12,6 +12,6 @@ HomeSH firmware carries the repository public key and verifies package signature
 Current upstream releases:
 
 - [OpenClash 0.47.133](https://github.com/vernesong/OpenClash/releases/tag/v0.47.133)
-- [Home Assistant Container 2026.8.1](https://github.com/home-assistant/core/pkgs/container/home-assistant)
+- [OpenClaw 2026.6.34](https://github.com/openclaw/openclaw/releases/tag/v2026.6.34)
 
 Each upstream project remains subject to its own license.
