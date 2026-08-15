@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "v2",
+  "sourceId": "com.homesh.development",
+  "displayName": "HomeSH Development",
+  "metadataBaseUrl": "https://mai8304.github.io/homesh-applications/source/v2/metadata/",
+  "targetsBaseUrl": "https://mai8304.github.io/homesh-applications/source/v2/targets/",
+  "enabled": true,
+  "bootstrapRoot": {
+    "version": 1,
+    "sha256": "5654517104783a973efd8d057340bd509b4c2acff9fdbcd976da32e480ab758f"
+  }
+}

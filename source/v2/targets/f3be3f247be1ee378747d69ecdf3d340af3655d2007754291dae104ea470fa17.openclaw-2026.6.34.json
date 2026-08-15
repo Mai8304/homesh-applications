@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "v2",
+  "sourceId": "com.homesh.development",
+  "applicationId": "openclaw",
+  "releaseId": "openclaw-2026-6-34",
+  "listing": {
+    "displayName": "OpenClaw",
+    "subtitle": "Personal AI assistant and automation gateway",
+    "summary": "Connect models, tools, channels, and workflows in one self-hosted service.",
+    "description": "OpenClaw runs as a pinned Docker Compose application. Authentication, model providers, channels, and credentials remain owned by OpenClaw.",
+    "developer": "OpenClaw",
+    "category": {
+      "categoryId": "automation",
+      "displayName": "Automation",
+      "shortName": "Automation",
+      "description": "Self-hosted automation and assistant services."
+    },
+    "searchTerms": ["ai", "assistant", "automation", "gateway"],
+    "presentation": {
+      "artwork": "developer",
+      "icon": "automation",
+      "tone": "indigo",
+      "featured": null
+    }
+  },
+  "version": "2026.6.34",
+  "releasedAt": "2026-08-08T07:22:14Z",
+  "whatsNew": "Pins the OpenClaw 2026.6.34 multi-platform image and qualified HomeSH Compose model.",
+  "downloadSizeBytes": 358471543,
+  "installedSizeBytes": 1073741824,
+  "runtime": {
+    "kind": "dockerCompose",
+    "composeArtifact": {
+      "targetPath": "openclaw-2026.6.34.yaml",
+      "sha256": "b4e8aa4d82d5c553d5eec3503d6d26faad5f2b2b6f154a362bfcad93a179a9f2",
+      "lengthBytes": 1461
+    },
+    "composeModelSha256": "544b6d8eda541e88a79628af02de6b461a8b8a1858fb9c99ebe1b1d1ba716572",
+    "composeVersion": "2.40.3",
+    "projectName": "openclaw",
+    "imageDigests": ["sha256:47d342bafe83bd3b2dca6f1d8d8b608ba7b542a1952564960648943346206759"],
+    "requiredCapabilities": [],
+    "webEntryPoint": {
+      "scheme": "http",
+      "port": 18789,
+      "path": "/"
+    }
+  }
+}
