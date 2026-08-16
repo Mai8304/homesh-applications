@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "v2",
+  "sourceId": "com.homesh.development.v2",
+  "applications": [
+    {
+      "applicationId": "openclash",
+      "releaseManifestTargets": ["openclash-0.47.133.json"]
+    },
+    {
+      "applicationId": "openclaw",
+      "releaseManifestTargets": ["openclaw-2026.6.34.json"]
+    },
+    {
+      "applicationId": "home-assistant",
+      "releaseManifestTargets": ["home-assistant-2026.8.1.json"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "v2",
+  "sourceId": "com.homesh.development.v2",
+  "applicationId": "openclash",
+  "releaseId": "openclash-0-47-133",
+  "listing": {
+    "displayName": "OpenClash",
+    "subtitle": "Policy-based network access",
+    "summary": "Manage qualified Clash routing from an isolated OpenWrt interface.",
+    "description": "OpenClash runs as a qualified OpenWrt-native application and keeps its complete LuCI management experience.",
+    "developer": "vernesong",
+    "category": {
+      "categoryId": "network",
+      "displayName": "Network",
+      "shortName": "Network",
+      "description": "Routing and network policy."
+    },
+    "searchTerms": ["clash", "proxy", "network", "openwrt"],
+    "presentation": {
+      "artwork": "network",
+      "icon": "network",
+      "tone": "blue",
+      "featured": null
+    }
+  },
+  "version": "0.47.133",
+  "releasedAt": "2026-07-18T04:18:35Z",
+  "whatsNew": "Qualified OpenClash 0.47.133 as a standard signed OpenWrt package.",
+  "downloadSizeBytes": 9158052,
+  "installedSizeBytes": 26344208,
+  "runtime": {
+    "kind": "openwrtNative",
+    "rootPackage": "luci-app-openclash",
+    "rootPackageVersion": "0.47.133",
+    "packageArtifact": {
+      "targetPath": "luci-app-openclash-0.47.133.apk",
+      "sha256": "173a239348b679e2131e726b24fd9c10378fcae2c27cfc988f9a1766112ba65d",
+      "lengthBytes": 9158052
+    },
+    "entryPath": "/cgi-bin/luci/admin/services/openclash",
+    "rpcdAclGroups": ["luci-app-openclash"],
+    "ownedPaths": ["/etc/config/openclash", "/etc/openclash"]
+  }
+}

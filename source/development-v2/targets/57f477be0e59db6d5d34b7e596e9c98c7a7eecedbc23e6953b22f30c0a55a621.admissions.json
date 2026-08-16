@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "v2",
+  "entries": [
+    {
+      "sourceId": "com.homesh.development.v2",
+      "applicationId": "openclash",
+      "releaseManifestSha256": "fd95b390458b08a545ad1fee87bb1e5f47eaf67c18abeaa38326a6fd7324fa8e",
+      "qualifiedContexts": [
+        {
+          "hardwareProfileId": "cudy-tr3000-v1-256mb",
+          "hardwareProfileVersion": 1,
+          "applicationPlatformLevel": 1
+        }
+      ],
+      "listedDeviceCountryCodes": ["CN", "US"]
+    },
+    {
+      "sourceId": "com.homesh.development.v2",
+      "applicationId": "openclaw",
+      "releaseManifestSha256": "5d79c126553f3e4a4c4636a654cfde7e5bacf75f58227a69d50cbea7fcdedaf3",
+      "qualifiedContexts": [
+        {
+          "hardwareProfileId": "cudy-tr3000-v1-256mb",
+          "hardwareProfileVersion": 1,
+          "applicationPlatformLevel": 1
+        }
+      ],
+      "listedDeviceCountryCodes": ["CN", "US"]
+    },
+    {
+      "sourceId": "com.homesh.development.v2",
+      "applicationId": "home-assistant",
+      "releaseManifestSha256": "9225a8de6215ec913f675f5b4e26fa0067654830ae8d9481ff4d5c6e3386f1cc",
+      "qualifiedContexts": [
+        {
+          "hardwareProfileId": "cudy-tr3000-v1-256mb",
+          "hardwareProfileVersion": 1,
+          "applicationPlatformLevel": 1
+        }
+      ],
+      "listedDeviceCountryCodes": ["CN", "US"]
+    }
+  ]
+}
