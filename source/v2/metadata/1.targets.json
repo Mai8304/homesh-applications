@@ -1,0 +1,68 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 1,
+    "expires": "2026-11-07T07:05:33.719679Z",
+    "targets": {
+      "luci-app-openclash-0.47.133.apk": {
+        "length": 9158052,
+        "hashes": {
+          "sha256": "173a239348b679e2131e726b24fd9c10378fcae2c27cfc988f9a1766112ba65d"
+        }
+      },
+      "admissions.json": {
+        "length": 1338,
+        "hashes": {
+          "sha256": "03b99d81c972bc3074b3b620798756d7f277f48763baaa034ee23a8b2919c726"
+        }
+      },
+      "catalog.json": {
+        "length": 428,
+        "hashes": {
+          "sha256": "551d9a224c121cc6087b794afc2ae074f04a8a1a817f8b95fb4bf6820a6fd761"
+        }
+      },
+      "openclash-0.47.133.json": {
+        "length": 1546,
+        "hashes": {
+          "sha256": "5e2085536fca834bd90822990d37105f481ce0779a73d5517f9eef453318ec15"
+        }
+      },
+      "openclaw-2026.6.34.json": {
+        "length": 1783,
+        "hashes": {
+          "sha256": "f3be3f247be1ee378747d69ecdf3d340af3655d2007754291dae104ea470fa17"
+        }
+      },
+      "openclaw-2026.6.34.yaml": {
+        "length": 1461,
+        "hashes": {
+          "sha256": "b4e8aa4d82d5c553d5eec3503d6d26faad5f2b2b6f154a362bfcad93a179a9f2"
+        }
+      },
+      "home-assistant-2026.8.1.json": {
+        "length": 1769,
+        "hashes": {
+          "sha256": "01e7e981210b999584c18ef99592864bef7f217a390c80c373948d3c92b0d0a2"
+        }
+      },
+      "home-assistant-2026.8.1.yaml": {
+        "length": 306,
+        "hashes": {
+          "sha256": "6396e67a08ca302a2575002aed98bd9590111faa7d17bf8ce801b138ceef4ba9"
+        }
+      }
+    },
+    "delegations": {
+      "keys": {},
+      "roles": []
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "876530337609652bc0fb0b084b6b2cd2d3bcac98d5d45e0dfc47bb1fbd08e959",
+      "sig": "a544686baab8a7b1a67a9fc8021af762c1c5873b95ce01ce66f5ba65084e5172f97fd23fdb28b4c3227b050c0d8b80c05ca75b399f9fee9f8271f80d38c4c318605b76a14ebd964498e1e2885048b13c6acca65752369030479a2a800dc799faadbd92225e426e477d751a4e1c3e3d41f6f611203310e891998087a1801a21e95c2c414512aa3c54791d0708ea604c24a078d7e01b6dc037aca9d4153b77cf0f974288d7e55055eaf01c37ea6d4e8a7153a0352b642e6e135f61a230e0326c28a27fd504ad51bf8b3a94dc7c24b9a20ae898b86a7f7165975e4ff07d0fbc9e1c133d891eddf42f1ea4baa585fbe53e430dd183a134fe03b5a50191c84aea75bfc9e5ccef5ee376ce579fc6a3353a8b1dbefc78fe76261556a083305fce218a9894cb48f5b4069942ace7fa2f0b47debb7ac180d64de59ee8a52b8c4a997506b943f778d10015506eaf2e75839026da7fb4933e0d2869f125fa06d39a30f1efd6485f633ccce02965fdbeb2dde73196b4156fba366dbf6c436b02eccabfc9c1d1"
+    }
+  ]
+}

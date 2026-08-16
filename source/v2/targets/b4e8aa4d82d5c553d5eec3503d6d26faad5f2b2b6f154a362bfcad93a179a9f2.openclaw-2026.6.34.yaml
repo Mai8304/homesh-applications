@@ -1,0 +1,52 @@
+services:
+  openclaw:
+    image: ghcr.io/openclaw/openclaw@sha256:47d342bafe83bd3b2dca6f1d8d8b608ba7b542a1952564960648943346206759
+    platform: linux/arm64
+    environment:
+      HOME: /home/node
+      OPENCLAW_HOME: /home/node
+      OPENCLAW_STATE_DIR: /home/node/.openclaw
+      OPENCLAW_CONFIG_PATH: /home/node/.openclaw/openclaw.json
+      OPENCLAW_CONFIG_DIR: /home/node/.openclaw
+      OPENCLAW_WORKSPACE_DIR: /home/node/.openclaw/workspace
+      OPENCLAW_DISABLE_BONJOUR: "1"
+      TZ: UTC
+    volumes:
+      - openclaw-home:/home/node
+    ports:
+      - target: 18789
+        published: "18789"
+        protocol: tcp
+    cap_drop:
+      - NET_RAW
+      - NET_ADMIN
+    security_opt:
+      - no-new-privileges:true
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    init: true
+    restart: unless-stopped
+    command:
+      - /bin/sh
+      - -lc
+      - >-
+        node dist/index.js onboard --non-interactive --accept-risk --mode local
+        --auth-choice skip --gateway-port 18789 --gateway-bind lan
+        --gateway-auth token --skip-skills --skip-health &&
+        exec node dist/index.js gateway
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - >-
+          fetch('http://127.0.0.1:18789/healthz')
+          .then((response)=>process.exit(response.ok?0:1))
+          .catch(()=>process.exit(1))
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  openclaw-home:
