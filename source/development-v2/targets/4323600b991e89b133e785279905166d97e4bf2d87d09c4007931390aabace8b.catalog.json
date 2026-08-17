@@ -13,6 +13,10 @@
     {
       "applicationId": "home-assistant",
       "releaseManifestTargets": ["home-assistant-2026.8.1.json"]
+    },
+    {
+      "applicationId": "tailscale",
+      "releaseManifestTargets": ["tailscale-1.98.3-r1.json"]
     }
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "v2",
+  "sourceId": "com.homesh.development.v2",
+  "applicationId": "tailscale",
+  "releaseId": "tailscale-1-98-3-r1",
+  "listing": {
+    "displayName": "Tailscale",
+    "subtitle": "Private network access",
+    "summary": "Connect this router to your tailnet without opening inbound ports.",
+    "description": "Tailscale runs as a qualified OpenWrt-native service. Install it here, authorize the router with tailscale up, then configure routing and firewall policy in LuCI.",
+    "developer": "Tailscale / OpenWrt community",
+    "category": {
+      "categoryId": "network",
+      "displayName": "Network",
+      "shortName": "Network",
+      "description": "Routing and network policy."
+    },
+    "searchTerms": ["tailscale", "tailnet", "vpn", "mesh", "remote access", "openwrt"],
+    "presentation": {
+      "artwork": "security",
+      "icon": "security",
+      "tone": "indigo",
+      "featured": null
+    }
+  },
+  "version": "1.98.3",
+  "releasedAt": "2026-08-09T00:05:24Z",
+  "whatsNew": "Official OpenWrt Tailscale 1.98.3 package for secure tailnet connectivity.",
+  "downloadSizeBytes": 9902168,
+  "installedSizeBytes": 26378620,
+  "runtime": {
+    "kind": "openwrtNative",
+    "rootPackage": "tailscale",
+    "rootPackageVersion": "1.98.3-r1",
+    "packageArtifact": {
+      "targetPath": "tailscale-1.98.3-r1.apk",
+      "sha256": "19a9b106f4680eb742e914ff6fad7e8f436007f19fa1844bde386c6a1b1f1448",
+      "lengthBytes": 9902168
+    },
+    "entryPath": "/cgi-bin/luci/admin/system/startup",
+    "rpcdAclGroups": ["luci-mod-system-init"],
+    "ownedPaths": ["/etc/config/tailscale", "/etc/tailscale"]
+  }
+}
