@@ -8,6 +8,11 @@
       "qualifiedContexts": [
         {
           "hardwareProfileId": "cudy-tr3000-v1-256mb",
+          "hardwareProfileVersion": 2,
+          "applicationPlatformLevel": 1
+        },
+        {
+          "hardwareProfileId": "xiaomi-ax3000t-mtk-stock-256m-ram-128m-nand",
           "hardwareProfileVersion": 1,
           "applicationPlatformLevel": 1
         }
@@ -21,7 +26,7 @@
       "qualifiedContexts": [
         {
           "hardwareProfileId": "cudy-tr3000-v1-256mb",
-          "hardwareProfileVersion": 1,
+          "hardwareProfileVersion": 2,
           "applicationPlatformLevel": 1
         }
       ],
@@ -34,7 +39,7 @@
       "qualifiedContexts": [
         {
           "hardwareProfileId": "cudy-tr3000-v1-256mb",
-          "hardwareProfileVersion": 1,
+          "hardwareProfileVersion": 2,
           "applicationPlatformLevel": 1
         }
       ],
@@ -47,7 +52,7 @@
       "qualifiedContexts": [
         {
           "hardwareProfileId": "cudy-tr3000-v1-256mb",
-          "hardwareProfileVersion": 1,
+          "hardwareProfileVersion": 2,
           "applicationPlatformLevel": 1
         }
       ],
