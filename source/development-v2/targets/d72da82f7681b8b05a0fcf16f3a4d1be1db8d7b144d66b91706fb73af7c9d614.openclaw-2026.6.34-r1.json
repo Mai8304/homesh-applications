@@ -2,7 +2,7 @@
   "schemaVersion": "v2",
   "sourceId": "com.homesh.development.v2",
   "applicationId": "openclaw",
-  "releaseId": "openclaw-2026-6-34",
+  "releaseId": "openclaw-2026-6-34-r1",
   "listing": {
     "displayName": "OpenClaw",
     "subtitle": "Personal AI assistant and automation gateway",
@@ -24,18 +24,18 @@
     }
   },
   "version": "2026.6.34",
-  "releasedAt": "2026-08-08T07:22:14Z",
-  "whatsNew": "Pins the OpenClaw 2026.6.34 multi-platform image and qualified HomeSH Compose model.",
+  "releasedAt": "2026-08-22T07:13:02Z",
+  "whatsNew": "Qualifies OpenClaw 2026.6.34 for the TR3000 memory envelope.",
   "downloadSizeBytes": 358471543,
   "installedSizeBytes": 1073741824,
   "runtime": {
     "kind": "dockerCompose",
     "composeArtifact": {
-      "targetPath": "openclaw-2026.6.34.yaml",
-      "sha256": "b4e8aa4d82d5c553d5eec3503d6d26faad5f2b2b6f154a362bfcad93a179a9f2",
-      "lengthBytes": 1461
+      "targetPath": "openclaw-2026.6.34-r1.yaml",
+      "sha256": "a07dd994945eb3f209eb37e7cc396df275db22fdee7cd7e058fe6e7423b0bc2f",
+      "lengthBytes": 1561
     },
-    "composeModelSha256": "544b6d8eda541e88a79628af02de6b461a8b8a1858fb9c99ebe1b1d1ba716572",
+    "composeModelSha256": "af30d72f923040ac785b875c3074bc511cdeaa2ad21f041bfaca907d7622d1a7",
     "composeVersion": "2.40.3",
     "projectName": "openclaw",
     "imageDigests": ["sha256:47d342bafe83bd3b2dca6f1d8d8b608ba7b542a1952564960648943346206759"],

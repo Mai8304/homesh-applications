@@ -2,8 +2,12 @@ services:
   openclaw:
     image: ghcr.io/openclaw/openclaw@sha256:47d342bafe83bd3b2dca6f1d8d8b608ba7b542a1952564960648943346206759
     platform: linux/arm64
+    mem_limit: 272m
+    cpus: 1.5
+    pids_limit: 128
     environment:
       HOME: /home/node
+      NODE_OPTIONS: --max-old-space-size=144
       OPENCLAW_HOME: /home/node
       OPENCLAW_STATE_DIR: /home/node/.openclaw
       OPENCLAW_CONFIG_PATH: /home/node/.openclaw/openclaw.json
@@ -46,7 +50,7 @@ services:
       interval: 30s
       timeout: 5s
       retries: 5
-      start_period: 30s
+      start_period: 120s
 
 volumes:
   openclaw-home:

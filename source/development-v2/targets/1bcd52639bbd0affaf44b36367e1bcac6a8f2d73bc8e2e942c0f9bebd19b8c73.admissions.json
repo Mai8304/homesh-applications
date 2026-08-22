@@ -22,7 +22,7 @@
     {
       "sourceId": "com.homesh.development.v2",
       "applicationId": "openclaw",
-      "releaseManifestSha256": "5d79c126553f3e4a4c4636a654cfde7e5bacf75f58227a69d50cbea7fcdedaf3",
+      "releaseManifestSha256": "d72da82f7681b8b05a0fcf16f3a4d1be1db8d7b144d66b91706fb73af7c9d614",
       "qualifiedContexts": [
         {
           "hardwareProfileId": "cudy-tr3000-v1-256mb",
