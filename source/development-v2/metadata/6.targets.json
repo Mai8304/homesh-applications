@@ -1,0 +1,80 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 6,
+    "expires": "2026-11-14T19:39:01.332577Z",
+    "targets": {
+      "openclaw-2026.6.34-r1.yaml": {
+        "length": 1561,
+        "hashes": {
+          "sha256": "a07dd994945eb3f209eb37e7cc396df275db22fdee7cd7e058fe6e7423b0bc2f"
+        }
+      },
+      "tailscale-1.98.3-r1.apk": {
+        "length": 9902168,
+        "hashes": {
+          "sha256": "19a9b106f4680eb742e914ff6fad7e8f436007f19fa1844bde386c6a1b1f1448"
+        }
+      },
+      "home-assistant-2026.8.1.yaml": {
+        "length": 306,
+        "hashes": {
+          "sha256": "6396e67a08ca302a2575002aed98bd9590111faa7d17bf8ce801b138ceef4ba9"
+        }
+      },
+      "openclash-0.47.133.json": {
+        "length": 1549,
+        "hashes": {
+          "sha256": "fd95b390458b08a545ad1fee87bb1e5f47eaf67c18abeaa38326a6fd7324fa8e"
+        }
+      },
+      "catalog.json": {
+        "length": 544,
+        "hashes": {
+          "sha256": "7f27eb886f6efc033cd944281c979251179979404ddce1f470f1b95d7b985d44"
+        }
+      },
+      "admissions.json": {
+        "length": 2783,
+        "hashes": {
+          "sha256": "6892f9606303ced78e7c88339e5da7f30d24eecac0058591b7baeaa0287cdf10"
+        }
+      },
+      "luci-app-openclash-0.47.133.apk": {
+        "length": 9158052,
+        "hashes": {
+          "sha256": "173a239348b679e2131e726b24fd9c10378fcae2c27cfc988f9a1766112ba65d"
+        }
+      },
+      "openclaw-2026.6.34-r1.json": {
+        "length": 1768,
+        "hashes": {
+          "sha256": "d72da82f7681b8b05a0fcf16f3a4d1be1db8d7b144d66b91706fb73af7c9d614"
+        }
+      },
+      "home-assistant-2026.8.1.json": {
+        "length": 1772,
+        "hashes": {
+          "sha256": "9225a8de6215ec913f675f5b4e26fa0067654830ae8d9481ff4d5c6e3386f1cc"
+        }
+      },
+      "tailscale-1.98.3-r1.json": {
+        "length": 1639,
+        "hashes": {
+          "sha256": "21954fb4b823726dc659c3d0824ec6d6b4d1a1712fbfb585334052ea3438c93f"
+        }
+      }
+    },
+    "delegations": {
+      "keys": {},
+      "roles": []
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "69b67f40866c4ee673e400951dc7e7bb455b99f7fd96e7241b9c61257e7c9bb7",
+      "sig": "7abc08776a2a4911b449909749410b0c46d2f3bb46e5c9bc7547d55b8965119991a495b223acf4ae2f51488af384e7e7e0108d41a40bd3b59b23e124d6bddb112c7a909b8c88b4bdce166f471c1e8ac5664077471454955f2eeabafb960bb9ece92b5bbd03674f3dd56ee12e11c2eb9873460f429b124023b7c24b3b1e97da6c8916fd781cd3217e85ce9a31f9a2abba14d7ff3699f75197711a6a201217d837b9afb418f896a8da7e95988997cee686b29dbb2d9d90292e996e1cb79d787fdaa624cefa38eac91859ef4a033afd1fb3cb3ae8a2529fca17e6cf6dc4582dbfcb747454e3a558c6aa9c6430b85b02e9f57ed03ec6f2f25b947b5b11de14a1d38cebbaaffe6cfb02291bf7d78238bff19b851a453ffddc541ac76d6cb688a037631e32b6a8847f6b738f31a01911bde41dbbdd3e459a3854a486634ff033f74b95ef02d99ba6e9eca2cd204799ac7391fe5e38f9d1e749d026eb342235b831c606f6f81ca4fb804ec4cad69674d37a651169694012fad12b5763764a7ee2b5e1ae"
+    }
+  ]
+}
