@@ -21,19 +21,6 @@
     },
     {
       "sourceId": "com.homesh.development.v2",
-      "applicationId": "home-assistant",
-      "releaseManifestSha256": "9225a8de6215ec913f675f5b4e26fa0067654830ae8d9481ff4d5c6e3386f1cc",
-      "qualifiedContexts": [
-        {
-          "hardwareProfileId": "cudy-tr3000-v1-256mb",
-          "hardwareProfileVersion": 2,
-          "applicationPlatformLevel": 1
-        }
-      ],
-      "listedDeviceCountryCodes": ["CN", "US"]
-    },
-    {
-      "sourceId": "com.homesh.development.v2",
       "applicationId": "tailscale",
       "releaseManifestSha256": "21954fb4b823726dc659c3d0824ec6d6b4d1a1712fbfb585334052ea3438c93f",
       "qualifiedContexts": [
