@@ -10,14 +10,17 @@ This repository contains only redistributable application metadata and packages:
 
 HomeSH firmware carries the repository public key and verifies package signatures. Application catalog entries additionally pin artifact hashes and immutable Git commits. Signing private keys, device configuration, credentials, and user data are never stored here.
 
-The current HomeSH firmware does not dynamically discover this repository. Adding
-an application directory here alone does not make a card appear on existing
-devices; that requires a separate, generic catalog-delivery capability. This
-repository deliberately does not invent a second catalog or manifest protocol.
+Application Center V3 consumes the signed, tagged APK index under
+`openwrt/25.12.5/aarch64_cortex-a53/`. OpenWrt plugins are normal executable
+APK packages. Docker applications are data-only APK packages containing only
+`app.json` and `compose.yaml`; the device's standard Docker Compose CLI owns
+container lifecycle. `catalog.json` is presentation-only metadata and never
+replaces APK or Docker as installation authority.
 
 Current upstream releases:
 
 - [OpenClash 0.47.133](https://github.com/vernesong/OpenClash/releases/tag/v0.47.133)
+- Tailscale 1.98.3
 - [OpenClaw 2026.6.34](openclaw/2026.6.34/README.md)
 - [Home Assistant Container 2026.8.1](home-assistant/2026.8.1/compose.yaml)
 
