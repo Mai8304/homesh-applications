@@ -10,12 +10,14 @@ This repository contains only redistributable application metadata and packages:
 
 HomeSH firmware carries the repository public key and verifies package signatures. Application catalog entries additionally pin artifact hashes and immutable Git commits. Signing private keys, device configuration, credentials, and user data are never stored here.
 
-Application Center V3 consumes the signed, tagged APK index under
-`openwrt/25.12.5/aarch64_cortex-a53/`. OpenWrt plugins are normal executable
+Application Center V3 uses this repository as the byte-identical official fallback for
+the signed, tagged APK index under `openwrt/packages-25.12/aarch64_cortex-a53/`.
+The device primary is `repo.homesh.ai`; both endpoints carry the same package filenames,
+index bytes, signing key, lengths, and SHA-256 values. OpenWrt plugins are normal executable
 APK packages. Docker applications are data-only APK packages containing only
 `app.json` and `compose.yaml`; the device's standard Docker Compose CLI owns
-container lifecycle. `catalog.json` is presentation-only metadata and never
-replaces APK or Docker as installation authority.
+container lifecycle. Presentation metadata is firmware-bound and is not a remote
+artifact or installation authority.
 
 Current upstream releases:
 
